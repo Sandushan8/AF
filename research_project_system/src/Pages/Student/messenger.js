@@ -1,19 +1,10 @@
 import React from "react";
-import "../CSS_FIles/messenger.css"
-import Background from '../Images/background.jpg'
-import profileImg from '../Images/avatar.png'
-//components
-import NavBar from "../Components/navBar";
-import Footter from "../Components/footter";
-import Message from "../Components/message";
+import "../../CSS_FIles/Student/messenger.css"
+import profileImg from '../../Images/avatar.png'
+import NavBar from "../../Components/Student/navBar";
+import Footter from "../../Components/footter";
+import Message from "../../Components/Student/message";
 
-
-
-const myStyle = {
-    backgroundImage: `url(${Background})`,
-    backgroundSize: 'cover',
-
-};
 function Messenger() {
     return (
         <div>
@@ -23,7 +14,7 @@ function Messenger() {
                 <div className="chatArea">
                     <div className="chatHeader clearfix">
                         <center><h4 className="grpID">Group ID</h4></center>
-                        <img src={profileImg} width="30px" className="proPic"/>
+                        <img src={profileImg} width="30px" className="proPic" alt="Profile Pictire"/>
                     </div>
                     <div className="messageArea">
                         <Message mes='Hi' type='teacher'/>

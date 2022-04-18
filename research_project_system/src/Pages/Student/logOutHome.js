@@ -1,9 +1,9 @@
 import React from "react";
-import "../CSS_FIles/logOutHome.css"
-import Logo from '../Images/edu.jpg'
+import "../../CSS_FIles/Student/logOutHome.css"
+import Logo from '../../Images/edu.jpg'
 import { Link } from "react-router-dom";
-import Footter from "../Components/footter";
-import LogOutNavBar from "../Components/LogOutNavBar";
+import Footter from "../../Components/footter";
+import LogOutNavBar from "../../Components/Student/LogOutNavBar";
 
 const myBackground = {
     backgroundImage: `url(${Logo})`,

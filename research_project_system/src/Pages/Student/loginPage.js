@@ -1,7 +1,7 @@
 import React from "react";
-import '../CSS_FIles/login.css'
-import Footter from "../Components/footter";
-import LogOutNavBar from "../Components/LogOutNavBar";
+import '../../CSS_FIles/Student/login.css'
+import Footter from "../../Components/footter";
+import LogOutNavBar from "../../Components/Student/LogOutNavBar";
 
 function LoginPage() {
 

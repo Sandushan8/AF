@@ -1,7 +1,7 @@
 import React from "react";
-import "../CSS_FIles/registration.css"
-import Footter from "../Components/footter";
-import LogOutNavBar from "../Components/LogOutNavBar";
+import "../../CSS_FIles/Student/registration.css"
+import Footter from "../../Components/footter";
+import LogOutNavBar from "../../Components/Student/LogOutNavBar";
 
 function Registration() {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS_FIles/notice.css"
+import "../../CSS_FIles/Student/notice.css"
 
 function Notice() {
     return (

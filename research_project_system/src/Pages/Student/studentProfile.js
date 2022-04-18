@@ -1,8 +1,8 @@
 import React from "react";
-import "../CSS_FIles/studentProfile.css"
-import NavBar from "../Components/navBar";
-import Footter from "../Components/footter";
-import Avatar from "../Images/avatar.png"
+import "../../CSS_FIles/Student/studentProfile.css"
+import NavBar from "../../Components/Student/navBar";
+import Footter from "../../Components/footter";
+import Avatar from "../../Images/avatar.png"
 
 
 function StudentProfile() {
@@ -11,7 +11,7 @@ function StudentProfile() {
             <NavBar />
             <div className="profileWrapper">
                 <div className="profileLeftWrapper">
-                    <img src={Avatar} className="profileAvatar" width="130px" />
+                    <img src={Avatar} className="profileAvatar" width="130px" alt="Profile Pictire"/>
                     <input type="file" className="imgUploader"/>
                     <input type="text" className="proGroupID" value="SE-1" disabled />
                     <center> <hr className="leftSeparator"/></center>
