@@ -1,0 +1,71 @@
+.clearFix{
+    overflow: auto;
+}
+.detailWrapper{
+    margin: auto;
+    width: 830px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+.supervisorAvatarWraper{
+    margin-top: 10px;
+    width: 250px;
+    height: 130px;
+    border-right: 2px solid white;
+    float: left;
+}
+.supervisorAvatar{
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: 90px;
+    
+}
+.supervisorName{
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 8px;
+    text-align: center;
+    border: none;
+    resize: none;
+    outline: none;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.supervisorInfoWraper{
+   
+    margin-top: 10px;
+    margin-right: 10Px;
+    float:right;
+    width: 560px;
+    height: 130px;
+}
+.re-Heading{
+   
+    margin-left: 20px;
+}
+.re-Discription{
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    resize: none;
+    outline: none;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.requestBtn{
+    width: 80px;
+    margin-left: 10px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 182, 80);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.requestBtn:hover{
+    background-color: rgb(241, 155, 35);
+}
