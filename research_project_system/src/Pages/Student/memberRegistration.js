@@ -1,7 +1,7 @@
 import React from "react";
-import '../CSS_FIles/memberRegistration.css';
-import NavBar from "../Components/navBar";
-import Footter from "../Components/footter";
+import '../../CSS_FIles/Student/memberRegistration.css';
+import NavBar from "../../Components/Student/navBar";
+import Footter from "../../Components/footter";
 
 function MemberReg() {
     return (

@@ -1,13 +1,13 @@
 import React from "react";
-import "../CSS_FIles/supervisorDetail.css"
-import Avatar from "../Images/avatar.png"
+import "../../CSS_FIles/Student/supervisorDetail.css"
+import Avatar from "../../Images/avatar.png"
 
 
 function SupervisorDetail() {
     return (
         <div className="detailWrapper clearFix">
             <div className="supervisorAvatarWraper ">
-                <img src={Avatar} className="supervisorAvatar" width="60px" />
+                <img src={Avatar} className="supervisorAvatar" width="60px" alt="Profile Pictire"/>
                 <textarea rows="3" cols="32" className="supervisorName" disabled>Mr Frank N. Stein</textarea>
             </div>
             <div className="supervisorInfoWraper">

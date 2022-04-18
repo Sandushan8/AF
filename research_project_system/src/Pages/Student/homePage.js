@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../CSS_FIles/homePage.css"
-import Background from '../Images/uni.jpg'
-//Components
-import Notices from "../Components/notice.js";
-import NavBar from "../Components/navBar";
-import Footter from "../Components/footter";
-
+import "../../CSS_FIles/Student/homePage.css"
+import Notices from "../../Components/Student/notice.js";
+import NavBar from "../../Components/Student/navBar";
+import Footter from "../../Components/footter";
 
 function HomePage() {
     return (

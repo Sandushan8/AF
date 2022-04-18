@@ -1,5 +1,5 @@
 import React from "react";
-import '../CSS_FIles/message.css'
+import '../../CSS_FIles/Student/message.css'
 
 function Message(props){
     const type=props.type;

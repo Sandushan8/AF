@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../CSS_FIles/navBar.css"
-import Avatar from "../Images/avatar.png"
-import Chat from "../Images/chat.png"
+import "../../CSS_FIles/Student/navBar.css"
+import Avatar from "../../Images/avatar.png"
+import Chat from "../../Images/chat.png"
 function NavBar() {
     return (
         <div>
@@ -16,9 +16,9 @@ function NavBar() {
                     </ul>
                 </div>
                 <div className="AvatarLogin">
-                <Link to="/chat"> <img src={Chat} className="notification" width="30px"/> </Link>
+                <Link to="/chat"> <img src={Chat} className="notification" width="30px" alt="Profile Pictire"/> </Link>
                     <div className="dropdown">
-                        <img src={Avatar} className=" avatar dropdown" width="30px" />
+                        <img src={Avatar} className=" avatar dropdown" width="30px" alt="Profile Pictire" />
                         <div class="dropdown-content">
                             <Link to="/studentProfile"> Edit Profile<br /> </Link>
                             LogOut

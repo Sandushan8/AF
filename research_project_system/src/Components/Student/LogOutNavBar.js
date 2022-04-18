@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS_FIles/logOutNav.css"
+import "../../CSS_FIles/Student/logOutNav.css"
 import { Link } from "react-router-dom";
 
 function LogOutNavBar(){
