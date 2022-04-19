@@ -15,6 +15,9 @@ import MemberReg from './Pages/Student/memberRegistration';
 
 //-------------------Thivanka's End---------------------------------
 
+//-------------------Ihill Beginning---------------------------------
+import NavBarAd from './Components/Admin/index';
+//-------------------Ihill End---------------------------------------
 
 function App() {
   return (
@@ -38,7 +41,11 @@ function App() {
         {/* <Registration/> */}
         {/* ---------------------------Thivanka's Routes End------------------------*/}
 
-        
+        {/*----------------------------Ihill----------------------------------------*/}
+        <Route>
+          <NavBarAd />
+        </Route>
+        {/*----------------------------Ihill End----------------------------------------*/}
 
       </BrowserRouter>
     </div>
