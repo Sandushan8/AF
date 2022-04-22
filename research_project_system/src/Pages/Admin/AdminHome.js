@@ -3,7 +3,7 @@ import NavBarAd from '../../Components/Admin/NavBar';
 import SideBar from '../../Components/Admin/SideBar';
 
 const AdminHome = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => {
         setIsOpen(!isOpen)

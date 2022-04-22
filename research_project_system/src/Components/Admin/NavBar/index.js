@@ -10,7 +10,7 @@ import {Nav,
   NavBtn,
   NavBtnLink} from './NavBarEle'
 
-const NavBarAd = () => {
+const NavBarAd = ({toggle}) => {
   return (
     <>
         <Nav>
@@ -18,7 +18,7 @@ const NavBarAd = () => {
           <NavL to='/'>
             ADMIN
           </NavL>
-          <MobI>
+          <MobI onClick={toggle}>
             <FaBars />
           </MobI>
           
