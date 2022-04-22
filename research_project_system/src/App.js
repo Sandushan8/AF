@@ -16,14 +16,14 @@ import MemberReg from './Pages/Student/memberRegistration';
 //-------------------Thivanka's End---------------------------------
 
 //-------------------Ihill Beginning---------------------------------
-import NavBarAd from './Components/Admin/index';
+import AdminHome from './Pages/Admin/AdminHome';
 //-------------------Ihill End---------------------------------------
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-
+        {/* <NavBarAd /> */}
         {/* -------------------------Thivanka's Routes Start----------------------*/}
         <Route path="/start" exact component={LogOutHome} />
         <Route path="/signin" exact component={LoginPage} />
@@ -42,7 +42,7 @@ function App() {
         {/* ---------------------------Thivanka's Routes End------------------------*/}
 
         {/*----------------------------Ihill----------------------------------------*/}
-        
+        <Route path="/AdminHome" exact component={AdminHome} />
         {/*----------------------------Ihill End----------------------------------------*/}
 
       </BrowserRouter>
