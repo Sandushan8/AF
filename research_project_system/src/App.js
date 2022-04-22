@@ -16,7 +16,7 @@ import MemberReg from './Pages/Student/memberRegistration';
 //-------------------Thivanka's End---------------------------------
 
 //-------------------Ihill Beginning---------------------------------
-import NavBarAd from './Components/Admin/NavBar';
+import AdminHome from './Pages/Admin/AdminHome';
 //-------------------Ihill End---------------------------------------
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
         {/* ---------------------------Thivanka's Routes End------------------------*/}
 
         {/*----------------------------Ihill----------------------------------------*/}
-        <Route path="/AdminNav" exact component={NavBarAd} />
+        <Route path="/AdminHome" exact component={AdminHome} />
         {/*----------------------------Ihill End----------------------------------------*/}
 
       </BrowserRouter>
